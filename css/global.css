@@ -1,0 +1,31 @@
+:root {
+  --bg-main: hsl(217, 54%, 11%);
+  --bg-card: hsl(216, 50%, 16%);
+  --bg-line: hsl(215, 32%, 27%);
+
+  --sft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --wht: hsl(0, 0%, 100%);
+
+  --fw1: 300;
+  --fw2: 400;
+  --fw3: 600;
+}
+
+* {
+  font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+  color: var(--wht);
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: var(--bg-main);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
